@@ -24,6 +24,7 @@ export default function PreviewPage() {
   return (
     <form action="/api/checkout_sessions" method="POST">
       <section>
+        <input name="amount" />
         <button type="submit" role="link">
           Checkout
         </button>

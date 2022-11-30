@@ -14,7 +14,7 @@ export default async function handler(req, res) {
               },
               unit_amount: 150,
             },
-            quantity: 1,
+            quantity: req.body.amount,
           },
         ],
         mode: "payment",
